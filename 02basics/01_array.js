@@ -57,6 +57,8 @@ const myNew2 = myArr.splice(1, 3);
 console.log("Spliced One => ", myNew2);
 
 console.log("Changed Arr => ", myArr);
+console.log("Changed Arr => ", myArr);
+console.log("Changed Arr => ", myArr);
 
 
 
