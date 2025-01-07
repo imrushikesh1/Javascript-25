@@ -4,6 +4,8 @@
 // object literals
 
 const mySym = Symbol("key1");
+const mySyYm = Symbol("key1");
+const mySQym = Symbol("key1");
 
 const JsUser = {
     name: "rushi",
