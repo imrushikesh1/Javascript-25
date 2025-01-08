@@ -42,3 +42,12 @@ JsUser.greetingTwo = function () {
 
 console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
+
+console.log(JsUser.email);
+console.log(JsUser["email"]);
+
+console.log(JsUser["fullname"]);
+
+console.log(JsUser[mySym]);
+
+console.log(JsUser);
