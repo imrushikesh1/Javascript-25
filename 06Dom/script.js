@@ -4,6 +4,13 @@
 let divs = document.querySelectorAll(".box");
 console.log(divs);
 
-divs[0].innerText = "New unique value1 ";
-divs[1].innerText = "New unique value2 ";
-divs[2].innerText = "New unique value3 ";
+let idx = 1;
+
+for (div of divs) {
+    div.innerText = `new unique value ${idx}`;
+    idx++;
+}
+
+// divs[0].innerText = "New unique value1 ";
+// divs[1].innerText = "New unique value2 ";
+// divs[2].innerText = "New unique value3 ";
