@@ -11,6 +11,6 @@ for (div of divs) {
     idx++;
 }
 
-// divs[0].innerText = "New unique value1 ";
-// divs[1].innerText = "New unique value2 ";
-// divs[2].innerText = "New unique value3 ";
+divs[0].innerText = "New unique value1 ";
+divs[1].innerText = "New unique value2 ";
+divs[2].innerText = "New unique value3 ";
